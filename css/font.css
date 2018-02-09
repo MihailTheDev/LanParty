@@ -1,16 +1,22 @@
 .font-16
 {
-    font-size: 16p;
+    font-size: 16px;
 }
 .font-14{
-    font-size:14p;
+    font-size:14px;
 }
 .font-24{
-    font-size:24;
+    font-size:24px;
 
 }
+.font-20{
+    font-size:20px;
+}
+.line-hight-36{
+    line-height: 36px;
+}
 .header-font{
-    color: rgb(0, 235, 217);
+    color: rgb(0, 235, 217)!important;
     font-weight: 600;
 }
 #under-video{

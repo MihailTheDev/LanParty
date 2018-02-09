@@ -1,7 +1,7 @@
 body
 {
-    font-family: 'Encode Sans';
-    font-size: 22px;
+    font-family: 'Encode Sans'!important;
+    
 }
 html,body
 {
@@ -14,13 +14,20 @@ html,body
 .row-1
 {
     background-image: url("img/bg-inchis.png");
+    box-shadow: 1px 1px 1px 1px #000000;
+    margin-bottom: 0.5px;
 }
-.row-1
+.row-2
 {
-    background-image: url("img/bg-deschis.png");
+  background: url(img/bg-deschis.png); 
+   
+}
+.row-2::before{
+  
+
+ 
 }
 
-body {margin:0;}
 
 
 .mr-5v2
@@ -31,57 +38,12 @@ body {margin:0;}
 .ml-5v2{
   margin-left:6rem;
 }
+#eroi-div{
+  text-align: right;
+}
+#eroi{
+
+}
 
 
-
-
-.topnav {
-    overflow: hidden;
-  }
-  
-  .topnav a {
-   
-   
-    
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-  }
-  
-  .topnav a:hover {
-    background-color: rgba(242, 242, 242,0.3);
-    color: black;
-  }
-  
-  .active {
-    background-color:;
-    color: white;
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
-  
-  @media screen and (max-width: 1009px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 800px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: justify;
-    }
-  
-  }
+}
