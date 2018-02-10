@@ -22,3 +22,18 @@
 #under-video{
     text-align: center;
 }
+.align-center{
+    text-align: center;
+}
+.align-left{
+    text-align: left;
+}
+.align-right{
+    text-align:right;
+}
+.align-justify{
+    text-align: justify;
+}
+.align-justify-centered{
+    text-align: justify; text-align-last: center;
+}
