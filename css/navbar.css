@@ -2,8 +2,12 @@
     position: relative;
     transform: translate(-50%, -45%);
     border: 2px solid transparent;
-    border-image: linear-gradient(90deg, rgb(0, 235, 217), transparent);
+    border-image: linear-gradient(90deg, rgb(0, 235, 217), rgba(0, 235, 217, 0.5));
     border-image-slice: 1;
+}
+
+#inscriere:hover {
+    text-decoration: none!important;
 }
 
 .topnav {

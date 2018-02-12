@@ -1,84 +1,96 @@
-body {
-    font-family: 'Encode Sans'!important;
-}
-
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
-
-.row-1 {
-    background-image: url("img/bg-inchis.png");
-    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 1)!important;
-    -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 1)!important;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 1)!important;
-    position: relative;
-}
-
-.row-2 {
-    background: url(img/bg-deschis.png);
-    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 1)!important;
-    -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 1)!important;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 1)!important;
-    position: relative;
-}
-
-#div1 {
-    z-index: 100;
-}
-
-#div2 {
-    z-index: 75;
-}
-
-#div3 {
-    z-index: 50;
-}
-
-#div4 {
-    z-index: 25;
-}
-
-#div5 {
-    z-index: 0;
-}
-
-#div6 {
-    z-index: -10;
-}
-
-#div7 {
-    z-index: -20;
-}
-
-#div8 S {
-    z-index: -30;
-}
-
-.mr-5v2 {
-    margin-right: 6rem;
-}
-
-.ml-5v2 {
-    margin-left: 6rem;
-}
-
-#eroi-div {
-    text-align: right;
-}
-
-#soldatel-stanga,
-#soldatel-dreapta {
-    opacity: 0.8;
-}
-
-.gradient-border {
-    border: 1px solid transparent;
-    border-image: linear-gradient(90deg, rgb(0, 235, 217), transparent);
-    border-image-slice: 1;
-    padding-left: 0px!important;
-}
+    body {
+        font-family: 'Encode Sans'!important;
+    }
+    
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    
+    .row-1 {
+        background-image: url("img/bg-inchis.png");
+        -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 1)!important;
+        -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 1)!important;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 1)!important;
+        position: relative;
+    }
+    
+    .row-1:before {}
+    
+    .row-2 {
+        background-image: url("img/bg-deschis.png");
+        -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 1)!important;
+        -moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 1)!important;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 1)!important;
+        position: relative;
+    }
+    
+    #div1 {
+        z-index: 100;
+    }
+    
+    #div2 {
+        z-index: 75;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .over-heroes {
+        left: -5%;
+    }
+    
+    #div3 {
+        z-index: 50;
+    }
+    
+    #div4 {
+        z-index: 25;
+    }
+    
+    #div5 {
+        z-index: 0;
+        top: -5%;
+    }
+    
+    #div6 {
+        z-index: -10;
+        top: -5%;
+    }
+    
+    #div7 {
+        z-index: -20;
+        top: -5%;
+    }
+    
+    #div8 {
+        z-index: -30;
+        top: -5%;
+    }
+    
+    .mr-5v2 {
+        margin-right: 6rem;
+    }
+    
+    .ml-5v2 {
+        margin-left: 6rem;
+    }
+    
+    #eroi-div {
+        text-align: right;
+    }
+    
+    #soldatel-stanga,
+    #soldatel-dreapta {
+        opacity: 0.8;
+    }
+    
+    .gradient-border {
+        border: 1px solid transparent;
+        border-image: linear-gradient(90deg, rgb(0, 235, 217), transparent);
+        border-image-slice: 1;
+        padding-left: 0px!important;
+    }
