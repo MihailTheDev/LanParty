@@ -55,3 +55,7 @@
     text-align: justify;
     text-align-last: center;
 }
+
+#title-bitter {
+    font-family: 'Bitter'!important;
+}

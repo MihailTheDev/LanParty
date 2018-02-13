@@ -31,7 +31,7 @@
     color: white;
 }
 
-.topnav .icon {
+.topnav .burger {
     display: none;
 }
 
@@ -39,24 +39,30 @@
     .topnav a:not(:first-child) {
         display: none;
     }
-    .topnav a.icon {
+    .topnav a.burger {
         float: right;
         display: block;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1009px) {
     .topnav.responsive {
         position: relative;
     }
-    .topnav.responsive .icon {
+    .topnav.responsive .burger {
         position: absolute;
         right: 0;
         top: 0;
     }
     .topnav.responsive a {
+        margin-left: 0px;
         float: none;
         display: block;
-        text-align: justify;
+        text-align: center;
+    }
+    #inscriere {
+        padding: 0px;
+        transform: none;
+        border: 0px;
     }
 }
