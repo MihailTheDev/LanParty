@@ -45,38 +45,44 @@
     
     #div3 {
         z-index: 50;
+        top: -17%;
     }
     
     #div4 {
         z-index: 25;
+        background-image: url("img/bg-deschis.png");
+        top: -17%;
+        position: relative;
     }
     
     #div5 {
         z-index: 0;
-        top: -5%;
+        top: -17%;
     }
     
     #div6 {
         z-index: -10;
-        top: -5%;
+        top: -17%;
+        background-image: url("img/bg-deschis.png");
     }
     
     #div7 {
         z-index: -20;
-        top: -5%;
+        top: -17%;
     }
     
     #div8 {
         z-index: -30;
-        top: -5%;
-    }
-    
-    .mr-5v2 {
-        margin-right: 6rem;
+        top: -17%;
+        background-image: url("img/bg-deschis.png");
     }
     
     .ml-5v2 {
         margin-left: 6rem;
+    }
+    
+    .pt-jc {
+        padding-top: 120px;
     }
     
     #eroi-div {
@@ -88,9 +94,75 @@
         opacity: 0.8;
     }
     
+    #soldatel-stanga {
+        vertical-align: baseline;
+        position: relative;
+        right: -15%;
+    }
+    
+    #between-soliders {
+        z-index: 100;
+    }
+    
+    #soldatel-dreapta {
+        vertical-align: baseline;
+        position: relative;
+        left: -15%;
+    }
+    
+    #participa-st {
+        vertical-align: baseline!important;
+    }
+    
     .gradient-border {
         border: 1px solid transparent;
         border-image: linear-gradient(90deg, rgb(0, 235, 217), transparent);
         border-image-slice: 1;
         padding-left: 0px!important;
+    }
+    
+    .promo {
+        -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+        clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+    }
+    
+    .promo {
+        background: url(img/bg-deschis.png) no-repeat;
+        background-size: cover;
+        color: #fff;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    }
+    
+    .promo2 {
+        -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+        clip-path: polygon(0 0, 1600px 13%, 1600px 100%, 0 100%);
+    }
+    
+    .promo2 {
+        background: url(img/bg-deschis.png) no-repeat;
+        background-size: cover;
+        color: #fff;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    }
+    
+    .display-inline {
+        display: inline;
+    }
+    
+    .row {
+        z-index: 100;
+    }
+    
+    .left-10 {
+        right: -5%;
+    }
+    
+    .finally {
+        margin-bottom: -10%;
     }

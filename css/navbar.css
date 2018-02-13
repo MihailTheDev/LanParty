@@ -4,6 +4,7 @@
     border: 2px solid transparent;
     border-image: linear-gradient(90deg, rgb(0, 235, 217), rgba(0, 235, 217, 0.5));
     border-image-slice: 1;
+    padding: 14px 16px;
 }
 
 #inscriere:hover {
