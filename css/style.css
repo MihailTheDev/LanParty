@@ -108,10 +108,12 @@ body {
     vertical-align: baseline;
     position: relative;
     left: -15%;
+    line-height: 0!important;
 }
 
 #participa-st {
     vertical-align: baseline!important;
+    line-height: 0!important;
 }
 
 .gradient-border {
@@ -136,4 +138,12 @@ body {
 
 .finally {
     margin-bottom: -10%;
+}
+#btn-jmk {
+    position: relative;
+    transform: translate(-50%, -45%);
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, rgb(0, 235, 217), rgba(0, 235, 217, 0.5));
+    border-image-slice: 1;
+    padding: 14px 16px;
 }
