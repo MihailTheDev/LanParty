@@ -45,6 +45,9 @@
     #coordonator{
         right:-15%!important;
     }
+    .btn-1{
+        right:-10%;
+    }
 }
 /* imaginea de la competitive */
 @media screen and (max-width: 1136px)
