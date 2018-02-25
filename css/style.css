@@ -151,3 +151,14 @@ body {
 .lol:active{
     background-color:black;
 }
+
+.numer {
+	counter-reset: my-badass-counter;
+}
+.numer dt:before {
+	content: counter(my-badass-counter);
+	counter-increment: my-badass-counter;
+}
+#reg-interior{
+    left:10;
+}

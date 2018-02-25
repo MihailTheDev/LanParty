@@ -22,10 +22,13 @@
     font-size: 24px;
 }
 
-.line-hight-36 {
+.line-height-36 {
     line-height: 36px;
 }
 
+.line-height-50{
+    line-height:50px;
+}
 .header-font {
     color: rgb(0, 235, 217)!important;
     font-weight: 600;
@@ -58,4 +61,10 @@
 
 #title-bitter {
     font-family: 'Bitter'!important;
+}
+.left15{
+    left:15px;
+}
+.left10{
+    left:10;
 }
